@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="HelloWorld.app/HelloWorld">
+      <BCSymbolMapName>HelloWorld.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>HelloWorld.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/student/Projects/mobile/HelloWorld/HelloWorld/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>HelloWorld.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/student/Projects/mobile/HelloWorld/HelloWorld</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
