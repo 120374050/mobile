@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{56DC3B66-0400-4F35-92D3-17E0316C0F51}|Default">
+  <MonoDevelop.Ide.ItemProperties.Roman PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7683390C-D013-4072-A26A-17395FCE105C" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7683390C-D013-4072-A26A-17395FCE105C" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Roman/MainPage.xaml.cs">
+    <Files>
+      <File FileName="Roman/App.xaml.cs" />
+      <File FileName="Roman/App.xaml" />
+      <File FileName="Roman/MainPage.xaml" />
+      <File FileName="Roman/MainPage.xaml.cs" Line="27" Column="6" />
+      <File FileName="Roman/Custom/Converter.cs" Line="6" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Roman" expanded="True">
+            <Node name="Roman" expanded="True">
+              <Node name="Custom" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
