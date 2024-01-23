@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="15"
+            Padding="30,30">
+
+            <Label Text="First Number" FontSize="Large" />
+            <Border Stroke="black" StrokeThickness="1">
+                <Entry x:Name="txtFirstNum" Keyboard="Numeric" />
+            </Border>
+
+            <Label Padding="0,20,0,0" Text="Second Number" FontSize="Large" />
+            <Border Stroke="black" StrokeThickness="1">
+                <Entry x:Name="txtSecondNum" Keyboard="Numeric" />
+            </Border>
+
+            <Label x:Name="lblDisplay" Text="0" HorizontalOptions="Center" FontSize="40" FontAttributes="Bold" Padding="0,35" />
+
+            <Button Text="Add" Clicked="Add_Clicked" />
+            <Button Text="Clear" Clicked="Clear_Clicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+
