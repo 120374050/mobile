@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimerPro.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,30">
+
+            <Label x:Name="lblDisplay" Text="00:00:00" FontSize="Title" Padding="0,75" HorizontalOptions="Center" />
+
+            <Button x:Name="btnStart" Text="Start" Clicked="btnStart_Clicked" />
+            <Button x:Name="btnStop" Text="Stop" Clicked="btnStop_Clicked" IsEnabled="False" />
+            <Button Text="Reset" Clicked="btnReset_Clicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="TimerPro.app/TimerPro">
+      <BCSymbolMapName>TimerPro.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>TimerPro.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/student/Projects/TimerPro/TimerPro/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>TimerPro.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/student/Projects/TimerPro/TimerPro</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
