@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomGPS.MainPage">
+
+    <StackLayout Padding="20,60,20,20">
+        <Label x:Name="lblLon" FontSize="Large" Text="Lon: 111111111" />
+        <Label x:Name="lblLat" FontSize="Large" Text="Lat: 222222222" Padding="0,15,0,60" />
+        <Label Text="Street Address" FontSize="Large" FontAttributes="Bold" />
+        <Label x:Name="lblAddress" Text="1825 N. Bluemound" FontSize="Large" Padding="15,0,0,0" />
+        <Label x:Name="lblAddress2" Text="Appleton WI  54912" FontSize="Large" Padding="15,0,0,60"/>
+
+        <Button Text="Update Location" Clicked="UpdateLocation_Clicked" />
+    </StackLayout>
+
+
+
+</ContentPage>
+

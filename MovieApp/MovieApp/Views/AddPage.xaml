@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MovieApp.Views.AddPage"
+             Title="AddPage">
+    <VerticalStackLayout Padding="30,30">
+
+        <Label Text="Add Movie Title" FontSize="Large" />
+        <Border Stroke="gray" StrokeThickness="1" Margin="0,0,0,40">
+            <Entry x:Name="txtTitle" />
+        </Border>
+
+        <Image Source="add_tab.png" />
+
+        <Label Text="Movie Rating" FontSize="Large" />
+        <Border Stroke="gray" StrokeThickness="1" Margin="0,0,0,40">
+            <Entry x:Name="txtRating" />
+        </Border>
+
+        <Button Text="Add" Clicked="Add_Clicked" />
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Marathon.MainPage">
+
+    <ScrollView>
+        <StackLayout Padding="20,20">
+            <Label Text="Race Results" FontAttributes="Bold" FontSize="Large" />
+            <ListView x:Name="lstResults" />
+            <Picker x:Name="RacePicker" ItemDisplayBinding="{Binding race_name}" Title="Please Pick a Race" HorizontalOptions="FillAndExpand" BackgroundColor="Silver" SelectedIndexChanged="RacePicker_SelectedIndexChanged" />
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
+

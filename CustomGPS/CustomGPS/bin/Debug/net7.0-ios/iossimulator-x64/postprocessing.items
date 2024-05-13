@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="CustomGPS.app/CustomGPS">
+      <BCSymbolMapName>CustomGPS.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>CustomGPS.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/student/Projects/CustomGPS/CustomGPS/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>CustomGPS.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/student/Projects/CustomGPS/CustomGPS</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{E902D712-B6A7-405B-963A-1B12D6DBAF34}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7683390C-D013-4072-A26A-17395FCE105C" />
+  <MonoDevelop.Ide.ItemProperties.DateNight PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.7683390C-D013-4072-A26A-17395FCE105C" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DateNight/Views/MoneyPage.xaml">
+    <Files>
+      <File FileName="DateNight/Views/CoffeePage.xaml.cs" Line="16" Column="2" />
+      <File FileName="DateNight/Views/DinnerPage.xaml.cs" Line="14" Column="50" />
+      <File FileName="DateNight/Views/MoviePage.xaml.cs" Line="14" Column="48" />
+      <File FileName="DateNight/Views/MoneyPage.xaml.cs" Line="22" Column="10" />
+      <File FileName="DateNight/Models/DateCalculator.cs" Line="21" Column="1" />
+      <File FileName="DateNight/Views/MoneyPage.xaml" Line="9" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DateNight" expanded="True">
+            <Node name="DateNight" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="CoffeePage.xaml" expanded="True" />
+                <Node name="DinnerPage.xaml" expanded="True" />
+                <Node name="MoneyPage.xaml" expanded="True" selected="True" />
+                <Node name="MoviePage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

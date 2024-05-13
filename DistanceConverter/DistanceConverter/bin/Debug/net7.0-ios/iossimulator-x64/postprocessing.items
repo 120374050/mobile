@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="DistanceConverter.app/DistanceConverter">
+      <BCSymbolMapName>DistanceConverter.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>DistanceConverter.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/student/Projects/DistanceConverter/DistanceConverter/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>DistanceConverter.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/student/Projects/DistanceConverter/DistanceConverter</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

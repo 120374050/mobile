@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DateNight.Views.MoviePage"
+             Title="MoviePage">
+    <VerticalStackLayout Padding="20,20">
+        <Image Source="movie_main" Margin="0,20" />
+        <Border Stroke="gray" StrokeThickness="1">
+            <Entry x:Name="txtMovie" Placeholder="Enter Cost of Movie" />
+        </Border>
+    </VerticalStackLayout>
+
+</ContentPage>

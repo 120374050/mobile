@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RoundedCorners.MainPage">
+
+    <ScrollView>
+        <StackLayout Padding="20,60,20,20">
+            <Frame
+                CornerRadius="20"
+                IsClippedToBounds="True"
+                Padding="0"
+                VerticalOptions="Center"
+                HorizontalOptions="Center">
+
+                <Image
+                    Source="bart2_main.png"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand"
+                 />
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
+
